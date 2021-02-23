@@ -6,10 +6,10 @@ var fs = require("fs");
 const { json } = require('body-parser');
 
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: 'appareil'
+    host: "sql11.freemysqlhosting.net",
+    user: "sql11394422",
+    password: "eSkkUZFxsd",
+    database: 'sql11394422'
 });
 
 con.connect(function (err) {
